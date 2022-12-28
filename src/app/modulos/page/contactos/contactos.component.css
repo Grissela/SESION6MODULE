@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.img{
+    /* object-fit: cover;
+    filter: brightness(80%); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../../IMG/rabit.jpg");
+
+    height: 87.6vh;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.contenedor-title{
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 240px;
+    font-family:"Montserrat,Arial,Selvetica";
+    font-weight: 600;
+}
+
+.diviertete{
+    height: 70%;
+    text-align: center;
+    color: white;
+}
+
+.diviertete:hover{
+    color: #ad11ab;
+    transition: .0.5s;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.buton{
+    background-color: #61045F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.buton:hover{
+    background-color: #e61d99;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    color: #61045F;
+}
+.newslatter{
+    width: 700px;
+    margin:0 auto;
+    margin-top: 15px;
+}
